@@ -11,12 +11,12 @@
 -引用：以 > 开头  
 -代码：  
 >1. 开头四空格；  
->2. 开头结尾分别加上 ```（代码区）或 `（行内代码）  
+>2. 开头结尾分别加上  \```（代码区）或 \`（行内代码）  
 
 -分隔符：三个或以上 *, - 或 _ 规律出现可充当分割线  
 -链接：  
->1. 基本模式：[Link Name](Link\)；  
->2. 参考链接：文中：[Link][ID]；文末：[ID]:link；  
+>1. 基本模式：[Link Name]\(Link)；  
+>2. 参考链接：文中：[Link]\[ID]；文末：[ID]:link；  
 >3. 自动链接：<link\>  
 
 -图片：  
@@ -30,12 +30,12 @@
 >或者：  
 ><figure\>  
 >    <img src="Pic link"\>  
-><figure\>
+></figure\>
 
 -表格：  
->|Title1|Title2|Title3|Title4|  
->|---|:-----|:-----:|-----:|  
->|Content1|Content2|Content3|Content4|  
+>\|Title1|Title2|Title3|Title4|  
+>\|---|:-----|:-----:|-----:|  
+>\|Content1|Content2|Content3|Content4|  
 >
 : 用来对表格内文本排版：左对齐，右对齐或居中对齐  
 
